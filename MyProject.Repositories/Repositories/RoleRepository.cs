@@ -40,12 +40,12 @@ namespace MyProject.Repositories.Repositories
             return _context.Roles.First(r => r.Id == id);
         }
 
-        public Role Update(Role role)
-        {
-            Role r = _context.Roles.First(p => p.Id == role.Id);
-            r.Name = role.Name;
-            r.Description = role.Description;
-            return r;
-        }
+        //public Role Update(Role role)
+        //{
+        //    Role r = _context.Roles.First(p => p.Id == role.Id);
+        //    r.Name = role.Name;
+        //    r.Description = role.Description;
+        //    return r;
+        //}
     }
 }
